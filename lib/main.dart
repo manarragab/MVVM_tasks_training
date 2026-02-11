@@ -19,7 +19,6 @@ class MainApp extends StatelessWidget {
       ),
       initialRoute: AppRoutes.home,
       onGenerateRoute: AppRouter().generateRoute,
-      home: const Scaffold(body: Center(child: Text('Hello World!'))),
     );
   }
 }
